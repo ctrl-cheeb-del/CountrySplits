@@ -401,6 +401,10 @@ export default function Home() {
           </CardFooter>
         </Card>
       </motion.div>
+
+      <footer className="mt-8 text-center text-sm text-muted-foreground">
+        Sponsored by <a href="https://resold.app" target="_blank" rel="noopener noreferrer" className="underline">Resold</a> and <a href="https://vinta.app" target="_blank" rel="noopener noreferrer" className="underline">Vinta</a>.
+      </footer>
     </div>
   );
 }
