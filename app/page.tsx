@@ -402,9 +402,14 @@ export default function Home() {
         </Card>
       </motion.div>
 
-      <footer className="mt-8 text-center text-sm text-muted-foreground">
-        Sponsored by <a href="https://resold.app" target="_blank" rel="noopener noreferrer" className="underline">Resold</a> and <a href="https://vinta.app" target="_blank" rel="noopener noreferrer" className="underline">Vinta</a>.
-      </footer>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mt-8 text-center text-sm text-muted-foreground"
+      >
+          Sponsored by <a href="https://resold.app" target="_blank" rel="noopener noreferrer" className="underline">Resold</a> and <a href="https://vinta.app" target="_blank" rel="noopener noreferrer" className="underline">Vinta</a>.
+      </motion.div>
     </div>
   );
 }
