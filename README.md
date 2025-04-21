@@ -1,5 +1,6 @@
 ## Stripe Customer Country Breakdown
-https://CountrySplits.com
+
+[CountrySplits.com](https://countrysplits.com)
 
 This simple tool lets you see where your Stripe customers are located.
 
